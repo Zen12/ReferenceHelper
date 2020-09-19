@@ -1,7 +1,14 @@
 # ReferenceHelper
 ## Description
 
-Simple tool to find all references to GameObject/Component Simple tool to find all references to GameObject/Component in unity
+Simple tool to find all references to GameObject/Component  all references for Unity3d.
+##Difference from "Find References In Scene"
+1. It supports reference to GameObject
+2. Don't need to click to component to find reference. It shows for all components and GameObject 
+
+##Why?
+1. Need to find all UnityEvent to GameObject/Component
+
 ## How to use
 1. Open sample scene (ReferenceHelper/TestScene.scene)
 2. Open Reference Window (Tools/ReferenceHelper)
@@ -16,6 +23,6 @@ Simple tool to find all references to GameObject/Component Simple tool to find a
 5. Runtime support
 
 ## How it works
-It uses Reflection and .GetComponentsInChildren<Component>(true), at the moment for big scenes can be very slow!
+It uses Reflection and .GetComponentsInChildren<Component>(true). At the moment, for big scenes it might be very slow!
 
 Tested on 2019.8.4f
