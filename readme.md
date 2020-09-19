@@ -1,7 +1,7 @@
 # ReferenceHelper
 ## Description
 
-Simple tool to find all references to GameObject/Component
+Simple tool to find all references to GameObject/Component Simple tool to find all references to GameObject/Component
 ## How to use
 1. Open sample scene (ReferenceHelper/TestScene.scene)
 2. Open Reference Window (Tools/ReferenceHelper)
